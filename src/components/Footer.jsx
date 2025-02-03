@@ -4,7 +4,7 @@ import logo_tce from '../assets/logo_tce.png';
 
 function Footer() {
     return (
-        <footer className="flex justify-center items-center bg-[#148787] w-full shadow-md py-4">
+        <footer className=" flex justify-center items-center bg-[#148787] w-full shadow-md py-4">
             <div className="w-[1140px] flex justify-center">
                 
 

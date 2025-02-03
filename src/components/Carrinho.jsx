@@ -23,7 +23,7 @@ function Carrinho() {
 
 
     return (
-        <div className="w-[1140px] h-screen flex flex-col justify-start p-10 ">
+        <div className="w-[1140px] min-h-screen flex flex-col justify-start p-10 ">
 
             <div className="grid grid-cols-[6fr_2fr_2fr] gap-4 items-center">
                 <h1 className="text-2xl text-slate-600 font-bold">Meu Carrinho</h1>
