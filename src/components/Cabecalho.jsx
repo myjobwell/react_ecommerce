@@ -11,8 +11,11 @@ function Cabecalho() {
                 <img src={logo_tce} alt="Logo TCE" className="max-h-10"/>
                 </Link>
 
-                
-                <h1 className='text-2xl text-slate-50 font-bold'>TCE-COMMERCE</h1>
+                <div className='flex flex-row gap-4  items-center'    >
+                    <h1 className='text-2xl text-slate-50 font-bold'>TCE-COMMERCE</h1>
+                    <a href="/cadastrar" className='text-slate-50'>Cadastar Produto</a>
+                </div>
+
                 
                 <ButtonCarrinho />
             </div>

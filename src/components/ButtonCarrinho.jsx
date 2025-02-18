@@ -12,6 +12,7 @@ function ButtonCarrinho() {
             <ShoppingCart />
             <span className='cart_status'>{carrinho.length}</span>
         </button>
+        
 
     );
     

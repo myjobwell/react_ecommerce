@@ -5,6 +5,7 @@ import Conteudo from "./components/Conteudo";
 import Carrinho from "./components/Carrinho";
 import { CarrinhoProvider } from "./components/CarrinhoContext"; // Importa o contexto do carrinho, disponibilizando para toda a aplicação
 import Footer from "./components/Footer";
+import CadastrarProduto from "./components/CadastrarProduto.jsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                               <Route path="/" element={<Conteudo />} />
                               <Route path="/detalhes/:id" element={<Detalhes />} />
                               <Route path="/carrinho" element={<Carrinho />} />
+                              <Route path="/cadastrar" element={<CadastrarProduto />} />
                           </Routes>
                           </div> 
                 </div>

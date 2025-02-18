@@ -11,7 +11,7 @@ function Detalhes() {
     const navigate = useNavigate();
     const { adicionarAoCarrinho } = useCarrinho(); //esse trecho adiciona itens ao carrinho
     const [produto, setProduto] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true); //aparece o loading quando a pag nao for totalmente carregada
 
     useEffect(() => {
         const fetchProduto = async () => {
@@ -93,7 +93,6 @@ function Detalhes() {
                                         hover:bg-[#e0e0e0] hover:scale-105 transition duration-300'
                                         onClick={handleAdicionarAoCarrinho}
                                         >Adicionar a sacola</button>
-
 
 
                 </div>
